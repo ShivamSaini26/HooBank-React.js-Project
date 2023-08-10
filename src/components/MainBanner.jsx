@@ -4,7 +4,7 @@ const MainBanner = () => {
   return (
     <div
       id="mainbanner"
-      className=" ss:w-full sm:max-w-4xl mt-2 p-3  mx-auto flex flex-wrap flex-col ss:flex-row "
+      className=" ss:w-full sm:max-w-4xl mt-12 p-3  mx-auto flex flex-wrap flex-col ss:flex-row"
     >
       <div className="headlines m-auto w-11/12 ss:w-[52%]">
         <div

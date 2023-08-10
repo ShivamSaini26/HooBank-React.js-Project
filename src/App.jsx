@@ -1,6 +1,6 @@
 
 import './index.css';
-// import './script/script';
+import './script/script';
 import Navbar from "./components/Navbar";
 import Analytics from "./components/Analytics";
 import Billing from './components/Billing';
@@ -19,6 +19,7 @@ import Testimonials from './components/Testimonial';
 function App() {
   return (
     <>
+    
       <div className="">
         <main className=" mygradient2 box-border h-full mx-auto ">
           <Navbar />

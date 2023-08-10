@@ -1,8 +1,13 @@
 // // navigation
-const openBtn=document.querySelector('#openbtn');
-const closeBtn=document.querySelector('#closeBtn');
-const header_close=document.querySelector('#header_close');
+const openmenu = document.querySelector("#buttonopenmenu");
+const popupmenu = document.querySelector("#popup");
+const closemenu = document.querySelector("#buttonclosemenu");
+const navigation = document.querySelector("#navigation");
 
+openmenu.addEventListener('click',(e)=>{
+    popupmenu.classList.toggle('hidden');
+})
 
-
-
+closemenu.addEventListener('click',(e)=>{
+    popupmenu.classList.toggle('hidden');
+})
