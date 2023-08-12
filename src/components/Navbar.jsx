@@ -1,5 +1,6 @@
 import { logo } from "../assets/icons";
-import "../index.css";
+
+
 const Navbar = () => {
   return (
     <>
@@ -10,8 +11,9 @@ const Navbar = () => {
             <img className="w-1/3 cursor-pointer" src={logo} alt="hoo bank" />
 
             <button
+              onClick={open}
               id="buttonopenmenu"
-              className="w-[25px] my-auto hover:bg-cyan-100 hover:text-black rounded-md cursor-pointer text-white  text-center h-[29px]"
+              className=" w-[25px] my-auto hover:bg-cyan-100 hover:text-black rounded-md cursor-pointer text-white  text-center h-[29px]"
             >
               &#9776;
             </button>
@@ -20,13 +22,14 @@ const Navbar = () => {
           {/* mobile popup navigation */}
           <header
             id="popup"
-            className="hidden ss:hidden absolute top-0 left-0 h-full
+            className=" hidden ss:hidden absolute top-0 left-0 h-full
           w-screen  bg-opacity-100 mygradient sidebar z-40   "
           >
             <nav className="text-dimWhite px-6 py-2 flex flex-wrap justify-between  min-h-full ">
               <button
+                onClick={close}
                 id="buttonclosemenu"
-                className="hover:bg-cyan-100 hover:text-black rounded-md p-2 cursor-pointer absolute right-8 top-9 mr-6"
+                className=" hover:bg-cyan-100 hover:text-black rounded-md p-2 cursor-pointer absolute right-8 top-9 mr-6"
               >
                 &#x2715;{" "}
               </button>
@@ -44,7 +47,7 @@ const Navbar = () => {
                     <a href="#">Home</a>
                   </li>
                   <li className="p-4 my-2 mx-auto font-bold text-2xl cursor-pointer hover:text-white">
-                    <a href="#"></a>About Us
+                    <a href="#bottomlinks"></a>About Us
                   </li>
                   <li className="p-4 my-2 mx-auto font-bold text-2xl cursor-pointer hover:text-white">
                     <a href="#"></a>Features

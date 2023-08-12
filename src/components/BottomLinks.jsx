@@ -3,11 +3,15 @@ import { logo } from "../assets/icons";
 const BottomLinks = () => {
     return (
       <div
+        id="bottomlinks"
         className=" mx-auto mt-10 ss:w-full sm:max-w-4xl  ss:flex ss:flex-wrap p-2 text-center justify-around items-center  rounded-lg"
-      
       >
         <div className="w-[90%] ss:w-1/3   p-4 m-4 inline-block  h-fit ">
-          <img className="w-[150px] my-5 mx-auto cursor-pointer" src={logo} alt="hoobank" />
+          <img
+            className="w-[150px] my-5 mx-auto cursor-pointer"
+            src={logo}
+            alt="hoobank"
+          />
           <span className="text-sm text-gray-400 ">
             A new way to make payments easy, reliable and secure.
           </span>

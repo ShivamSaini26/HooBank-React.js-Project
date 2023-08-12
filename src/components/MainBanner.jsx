@@ -1,5 +1,6 @@
 import { discount, robot } from "../assets/icons";
 
+
 const MainBanner = () => {
   return (
     <div
