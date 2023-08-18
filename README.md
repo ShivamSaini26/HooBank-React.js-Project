@@ -1,8 +1,21 @@
-# React + Vite
+Visit Hoo-Bank by URL - https://hoo-bank-shivamsaini26.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hoo Bank is an imaginary webPage dedicated to a fictional bank who adopt
+to modern technologies for their banking workflow 🇮🇳
+Features are :-
 
-Currently, two official plugins are available:
+Application's UI is very Modern and futuristic🌌
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Has Fully Responsive Layout with Mobile Friendly Interface. 📲
+
+Having minimal user interface for better interaction with user. 👥
+
+More Features Will be Added During Maintenance Phase. 🔨
+
+Build Using Cutting Edge Technologies - HTML5, CSS3, Tailwind CSS, and React.js. 🔮
+
+Hoo bank - Project is Built during Learning Phase for React.js. 🔎
+
+The application is build by taking inspiration from a Youtube channel - javascipt mastery.
+
+Developer holds Full right on the Application for Its Development . 👨‍💻 STAY TUNED FOR MORE UPDATES...... 🛠️🔥🔥🔥
